@@ -1,3 +1,59 @@
+# Toast Notification System
+
+This is a reusable toast notification system built with React.
+
+## Features
+
+1. **Global accessibility**: Accessible from any part of the application using context.
+2. **Default messages**: Includes predefined message types (info, success, warning, error).
+3. **Custom messages**: Allows custom messages to be passed and displayed.
+4. **Positioning**: Supports custom positioning (e.g., top-right, bottom-center).
+5. **Custom delay**: Supports custom delay to automatically dismiss the notification.
+
+## Installation
+
+1. Clone the repository.
+2. Run `npm install` to install dependencies.
+3. Run `npm start` to start the application.
+
+## Usage
+
+- Use `useToast` to trigger a toast notification from any component.
+
+```jsx
+const addToast = useToast();
+addToast("success", "This is a success message", "bottom-left", 5000);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
